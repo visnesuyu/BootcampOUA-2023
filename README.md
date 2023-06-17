@@ -11,7 +11,7 @@ Takım Unity 50
 ## Ürün İsmi
 Enigma
 ## Product Backlog URL
-https://miro.com/welcomeonboard/M3Jzc2RyRE4yekZUdDNZS1lCemZUaDhiNWxVWXdQWjNVM1VEb0x6RmV3SFNUYUU5UUh5U3kxTkpteFVNOFFEZnwzMDc0NDU3MzUwMjg2NDE2OTg5fDI=?share_link_id=708645631014
+[Unity Takım 50 - Çalışma Alanı](https://miro.com/welcomeonboard/M3Jzc2RyRE4yekZUdDNZS1lCemZUaDhiNWxVWXdQWjNVM1VEb0x6RmV3SFNUYUU5UUh5U3kxTkpteFVNOFFEZnwzMDc0NDU3MzUwMjg2NDE2OTg5fDI=?share_link_id=708645631014)
 ## Ürün Açıklaması
 Enigma, iki oyun karakteri arasındaki bağlantıya dayalı bir bulmaca çözme oyunudur: bir okçu ve bir büyücü. Bu karakterler, oyuncuların beceri ve zekalarını test eden çeşitli bulmacalar ve zorluklar üzerinden ilerler.
 Oyun, beş ayrı bulmacadan oluşmaktadır:
@@ -34,3 +34,39 @@ Bu özellikler, oyununuzun eşsiz ve çekici olmasını sağlar ve oyunculara ze
 - Bulmaca severler
 - Fantastik ögeleri sevenler
 - Kooperatif oyunlardan hoşlananlar
+## Jüriye Not
+
+# Sprint 1
+- Sprint İçinde Tamamlanması Öngörülen Puan = 100
+- Daily Scrum:
+Grup toplantıları whatsapp üzerinden planlanmış olup discord üzerinden gerçekleştirilmiştir.
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/2d8b4e5b-b3b7-4c3d-bd89-7bb4da745510)
+- Trello Üzerinden Görev Dağılımı
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/155fb5ad-0966-45f1-bd86-6071984bdf8f)
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/5fb96c66-b681-42d3-b356-90d8c5cd7f96)
+-Ürün Durumu
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/0a721a4d-560d-4829-94de-d638a840ec4e)
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/d9ed73d8-c2b1-4504-8496-1e269721975b)
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/aac6456c-7b57-459a-a981-810cd75de9c5)
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/0d030155-92d3-479e-a150-ee15cdefea6a)
+### Sprint Review
+Oyun tasarımına ve konseptine karar verdik. Oyun adını seçtik. Hedef kitlemizi ve oyunun amacını belirledik. Oyunun mekanikleri için toplantı yaparak kameranın ve oyuncu kontrollerinin nasıl olması gerektiğine karar verdik.
+### Sprint Restrospective
+* İletişim sıkıntıları yaşadık ve bu yüzden iletişim kanalımızı değiştirdik.
+* Ürünümüzün platform seçiminde sorun yaşadık. Başlangıçta VR olarak karar vermiştik sonrasında yasak olduğunun geri bildirimini aldık.
+* Ürün fikrimiz üzerinde çokça değişiklik yaşadık.
+### Sprint Accomplishments
+* Uyumlu çalıştık.
+* Uygun rol dağılımını sağladık.
+* Düzenli toplantı gerçekleştirdik ve katılım sağladık.
+## Product Backlog Url
+[Unity Takım 50 - Çalışma Alanı](https://miro.com/welcomeonboard/M3Jzc2RyRE4yekZUdDNZS1lCemZUaDhiNWxVWXdQWjNVM1VEb0x6RmV3SFNUYUU5UUh5U3kxTkpteFVNOFFEZnwzMDc0NDU3MzUwMjg2NDE2OTg5fDI=?share_link_id=708645631014)
+
+
+
+
+
+
+
+
+
