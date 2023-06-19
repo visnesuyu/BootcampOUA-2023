@@ -34,10 +34,11 @@ Bu özellikler, oyununuzun eşsiz ve çekici olmasını sağlar ve oyunculara ze
 - Bulmaca severler
 - Fantastik ögeleri sevenler
 - Kooperatif oyunlardan hoşlananlar
-## Jüriye Not
-
 # Sprint 1
-- Sprint İçinde Tamamlanması Öngörülen Puan = 100
+- Backlog Görev Tablosu
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/f026fae8-9168-4529-b339-ad0e4fbad02c)
+- Sprint İçinde Tamamlanması Öngörülen Puan = 150
+- Sprint İçinde Tamamlanan Puan = 150
 - Daily Scrum:
 Grup toplantıları whatsapp üzerinden planlanmış olup discord üzerinden gerçekleştirilmiştir.
 ![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/2d8b4e5b-b3b7-4c3d-bd89-7bb4da745510)
