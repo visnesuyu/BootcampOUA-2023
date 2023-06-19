@@ -35,7 +35,7 @@ Bu özellikler, oyununuzun eşsiz ve çekici olmasını sağlar ve oyunculara ze
 - Fantastik ögeleri sevenler
 - Kooperatif oyunlardan hoşlananlar
 # Sprint 1
-- Backlog Görev Tablosu
+- Backlog Excell Tablosu
 
 
 ![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/f026fae8-9168-4529-b339-ad0e4fbad02c)
