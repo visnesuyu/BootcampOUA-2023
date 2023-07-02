@@ -65,8 +65,41 @@ Oyun tasarımına ve konseptine karar verdik. Oyun adını seçtik. Hedef kitlem
 ## Product Backlog Url
 [Unity Takım 50 - Çalışma Alanı](https://miro.com/welcomeonboard/M3Jzc2RyRE4yekZUdDNZS1lCemZUaDhiNWxVWXdQWjNVM1VEb0x6RmV3SFNUYUU5UUh5U3kxTkpteFVNOFFEZnwzMDc0NDU3MzUwMjg2NDE2OTg5fDI=?share_link_id=708645631014)
 
+# Sprint 2
+- Backlog Excell Tablosu
 
 
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/8a2e7482-73c6-441e-a1db-0ff2f2d5192b)
+
+- Sprint İçinde Tamamlanması Öngörülen Puan = 180
+- Sprint İçinde Tamamlanan Puan = 180
+- Daily Scrum:
+Grup toplantıları whatsapp üzerinden planlanmış olup discord üzerinden gerçekleştirilmiştir.
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/63afb981-4962-4437-9908-ed948db7d599)
+
+- Trello Üzerinden Görev Dağılımı
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/b782b867-04c7-434b-97ff-2cb42956ac85)
+
+- Ürün Durumu
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/5e44a73b-acd2-4fd9-9d56-2897b4d75c21)
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/63c030e8-d354-4a69-b666-f46e1c22f9ae)
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/64aac529-7fd0-4536-919e-305fa370fd52)
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/51827ee5-6191-4423-930c-d5c758ab67c5)
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/93bce5c5-3be4-43cd-8a91-38ed2149a2f6)
+
+
+### Sprint Review
+Harita dizaynını tamamladık. Scriptlerimizi karşılaştırdık. Mekaniklerimizi oluşturduk ve birbirimize sunduk. Gelecek haftaiçin firebase kullanımı üzerine tartıştık.
+### Sprint Restrospective
+* Final haftası nedeniyle iletişim sorunları yaşadık.
+* Bayram olması nedeniyle yoğunluk yaşadık, projede biraz gecikme yaşandı.
+* Bir çok conflict ile karşılaştık.
+### Sprint Accomplishments
+* Bütün yoğunluklara rağmen toplantılarımızı gerçekleştirdik.
+* Uygun rol dağılımını sağladık.
+* Birbirimizle çatışmayan kodlar yazmayı öğrendik.
+## Product Backlog Url
+[Unity Takım 50 - Çalışma Alanı](https://miro.com/welcomeonboard/M3Jzc2RyRE4yekZUdDNZS1lCemZUaDhiNWxVWXdQWjNVM1VEb0x6RmV3SFNUYUU5UUh5U3kxTkpteFVNOFFEZnwzMDc0NDU3MzUwMjg2NDE2OTg5fDI=?share_link_id=708645631014)
 
 
 
