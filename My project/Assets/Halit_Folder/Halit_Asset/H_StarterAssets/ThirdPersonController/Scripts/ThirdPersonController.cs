@@ -1,9 +1,9 @@
-﻿ using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
-
+using Photon.Pun;
 /* Note: animations are called via the controller for both the character and capsule using animator null checks
  */
 
@@ -15,6 +15,7 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
+
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
         public float MoveSpeed = 2.0f;
@@ -100,11 +101,12 @@ namespace StarterAssets
         private int _animIDMotionSpeed;
         private int _animIDAttacking;
         // halit eklemeler
-        public GameObject fireballPrefab; 
+        public GameObject fireballPrefab;
         public Transform instantiateLocation;
         private bool canMove = true;
         public LayerMask environmentLayermask;
         public Interaction interactionScript;
+        PhotonView view;
 
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
@@ -143,7 +145,7 @@ namespace StarterAssets
         private void Start()
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
-            
+
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
@@ -158,22 +160,28 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+            //Halitekleme
+            view = GetComponent<PhotonView>();
         }
 
         private void Update()
         {
-            _hasAnimator = TryGetComponent(out _animator);
-
-            JumpAndGravity();
-            GroundedCheck();
-            if(canMove == true)
-            { 
-                Move();
-            }
-            if (Input.GetKeyDown(KeyCode.K))
+            if (view.IsMine)
             {
-                StartCoroutine(AttackAnimation());
+                _hasAnimator = TryGetComponent(out _animator);
+
+                JumpAndGravity();
+                GroundedCheck();
+                if (canMove == true)
+                {
+                    Move();
+                }
+                if (Input.GetKeyDown(KeyCode.K))
+                {
+                    StartCoroutine(AttackAnimation());
+                }
             }
+
             // BuildBridge();
 
         }
@@ -243,7 +251,7 @@ namespace StarterAssets
                     RaycastHit hit;
                     if (Physics.Raycast(ray, out hit, Mathf.Infinity, environmentLayermask))
                     {
-                        
+
                         // Instantiate the bullet
                         GameObject fireballClone = Instantiate(fireballPrefab, instantiateLocation.position, Quaternion.identity);
 
@@ -251,20 +259,20 @@ namespace StarterAssets
                         fireballClone.GetComponent<Fireball>().target = hit.point;
                     }
 
-                    
+
 
                     _animator.SetBool(_animIDAttacking, false);
                     canMove = true;
                 }
-                
-                
-                
+
+
+
             }
         }
         public void BuildBridge()
         {
             bool shouldBuild = interactionScript.GetBoolValue();
-            if(shouldBuild = true)
+            if (shouldBuild = true)
             {
                 //burada animasyon olacak ve kopru nasil yapilacaksa artik (null reference hatası veriyor onu coz)
                 Debug.Log("kopru yapcam");
@@ -449,5 +457,5 @@ namespace StarterAssets
             }
         }
     }
-    
+
 }
