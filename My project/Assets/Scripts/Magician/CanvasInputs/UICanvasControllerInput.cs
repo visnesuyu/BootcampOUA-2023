@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace StarterAssets
+namespace StarterAssetsMagician
 {
     public class UICanvasControllerInput : MonoBehaviour
     {

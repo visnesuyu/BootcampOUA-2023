@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace StarterAssets
+namespace StarterAssetsArcher
 {
     public class UICanvasControllerInput : MonoBehaviour
     {
