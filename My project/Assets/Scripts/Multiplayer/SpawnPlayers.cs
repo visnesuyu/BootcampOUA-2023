@@ -7,27 +7,36 @@ public class SpawnPlayers : MonoBehaviour
 {
     public GameObject playerPrefab;
     public GameObject playerPrefabArcher;
-    public GameObject canvasToDisable;
+    //public GameObject canvasToDisable;
     // Start is called before the first frame update
     void Start()
     {
-       
+        Debug.Log("Startta bu hoca");
+        Debug.Log(PhotonNetwork.CurrentRoom.PlayerCount);
+        if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
+        {
+            PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(60.53f, -0.3f, 0), Quaternion.identity);
+        }
+       else if(PhotonNetwork.CurrentRoom.PlayerCount != 1)
+        {
+            PhotonNetwork.Instantiate(playerPrefabArcher.name, new Vector3(60.53f, -0.3f, 0), Quaternion.identity);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        Debug.Log(PhotonNetwork.CurrentRoom.PlayerCount);
     }
     public void CreateMage()
     {
-        PhotonNetwork.Instantiate(playerPrefabArcher.name, new Vector3(60.53f, -0.3f, 0), Quaternion.identity);
-        canvasToDisable.SetActive(false);
+        
+       // canvasToDisable.SetActive(false);
 
     }
     public void CreateArcher()
     {
-        PhotonNetwork.Instantiate(playerPrefabArcher.name, new Vector3(60.53f, -0.3f, 0), Quaternion.identity);
-        canvasToDisable.SetActive(false);
+        
+       // canvasToDisable.SetActive(false);
     }
 }
