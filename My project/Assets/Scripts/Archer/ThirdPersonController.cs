@@ -2,6 +2,7 @@
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
+using Photon.Pun;
 
 /* Note: animations are called via the controller for both the character and capsule using animator null checks
  */
@@ -124,7 +125,8 @@ namespace StarterAssetsArcher
 #endif
             }
         }
-
+        //halitekledibisiler
+        PhotonView view;
 
         private void Awake()
         {
@@ -147,7 +149,8 @@ namespace StarterAssetsArcher
 #else
 			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
 #endif
-
+            
+            view = GetComponent<PhotonView>(); //halit
             AssignAnimationIDs();
 
             // reset our timeouts on start
@@ -157,12 +160,16 @@ namespace StarterAssetsArcher
 
         private void Update()
         {
-            _hasAnimator = TryGetComponent(out _animator);
-
+            if (view.IsMine)  //halit
+            { 
+                _hasAnimator = TryGetComponent(out _animator);
+            
+        
             JumpAndGravity();
             GroundedCheck();
             Move();
             AimShoot();
+            }
         }
 
         private void AimShoot()
