@@ -7,7 +7,7 @@ public class SpawnPlayers : MonoBehaviour
 {
     public GameObject playerPrefab;
     public GameObject playerPrefabArcher;
-    public Camera camera;
+    public GameObject canvasToDisable;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +22,12 @@ public class SpawnPlayers : MonoBehaviour
     public void CreateMage()
     {
         PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(60.53f, -0.3f, 0), Quaternion.identity);
-        Destroy(camera);
-        
+        canvasToDisable.SetActive(false);
+
     }
     public void CreateArcher()
     {
         PhotonNetwork.Instantiate(playerPrefabArcher.name, new Vector3(60.53f, -0.3f, 0), Quaternion.identity);
-        Destroy(camera);
+        canvasToDisable.SetActive(false);
     }
 }
