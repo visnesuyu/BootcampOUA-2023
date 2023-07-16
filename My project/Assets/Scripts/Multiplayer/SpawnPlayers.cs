@@ -11,7 +11,7 @@ public class SpawnPlayers : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class SpawnPlayers : MonoBehaviour
     }
     public void CreateMage()
     {
-        PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(60.53f, -0.3f, 0), Quaternion.identity);
+        PhotonNetwork.Instantiate(playerPrefabArcher.name, new Vector3(60.53f, -0.3f, 0), Quaternion.identity);
         canvasToDisable.SetActive(false);
 
     }
