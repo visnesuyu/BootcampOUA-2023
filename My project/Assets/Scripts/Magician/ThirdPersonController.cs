@@ -112,6 +112,7 @@ namespace StarterAssetsMagician
         private PlayerInput _playerInput;
 #endif
         private Animator _animator;
+        private Animator _buildBridge;
         private CharacterController _controller;
         private StarterAssetsInputs _input;
         private GameObject _mainCamera;
@@ -145,7 +146,7 @@ namespace StarterAssetsMagician
         private void Start()
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
-
+            _buildBridge = GameObject.Find("Target").GetComponent<Animator>();
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
@@ -272,8 +273,9 @@ namespace StarterAssetsMagician
         public void BuildBridge()
         {
             bool shouldBuild = interactionScript.GetBoolValue();
-            if (shouldBuild = true)
+            if (shouldBuild == true)
             {
+                _buildBridge.Play(1);
                 //burada animasyon olacak ve kopru nasil yapilacaksa artik (null reference hatası veriyor onu coz)
                 Debug.Log("kopru yapcam");
             }
