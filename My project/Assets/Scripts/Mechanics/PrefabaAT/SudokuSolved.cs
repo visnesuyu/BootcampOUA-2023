@@ -12,6 +12,11 @@ public class SudokuSolved : MonoBehaviour
     [SerializeField] TextMeshProUGUI canvas;
     private int checker = 0;
     private bool isMagician, isArcher = false;
+    private void Start()
+    {
+        spawnPoints[0] = GameObject.Find("tp1");
+        spawnPoints[1] = GameObject.Find("tp2");
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -32,13 +37,13 @@ public class SudokuSolved : MonoBehaviour
             int whichPlayer;
             if (gameObject.TryGetComponent(out Buyucu b))
             {
-                whichPlayer = 1;
+                whichPlayer = 0;
                 checker++;
                 isMagician = true;
             }
             else if (gameObject.TryGetComponent(out Okcu o))
             {
-                whichPlayer = 2;
+                whichPlayer = 1;
                 checker++;
                 isArcher = true;
             }

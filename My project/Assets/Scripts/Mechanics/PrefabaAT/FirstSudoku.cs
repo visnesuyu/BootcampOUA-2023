@@ -5,10 +5,16 @@ using TMPro;
 
 public class FirstSudoku : MonoBehaviour
 {
-    public TextMeshProUGUI canvas;
-    public Animator animator;
-    public int Timer;
+    private TextMeshProUGUI canvas;
+    private Animator animator;
+    private int Timer;
 
+    private void Start()
+    {
+        canvas = GameObject.Find("FirstATM").GetComponent<TextMeshProUGUI>();
+        animator = GameObject.Find("Concrete_fence_v2_lattice_S").GetComponent<Animator>();
+        Timer = 5;
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.TryGetComponent(out BlueATM blue))
@@ -27,7 +33,7 @@ public class FirstSudoku : MonoBehaviour
         }else if (other.gameObject.TryGetComponent(out GreenATM green))
         {
             canvas.text = "Green ATM interact (E)";
-            animator.SetTrigger("Open");
+            if(Input.GetKeyDown("E"))animator.SetTrigger("Open");
         }else if (other.gameObject.TryGetComponent(out OrangeATM orange))
         {
             canvas.text = "Orange ATM interact (E)";
