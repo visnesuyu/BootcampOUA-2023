@@ -35,7 +35,7 @@ AnimatorController:
   m_Name: Room1Door
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Open
+  - m_Name: open
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
