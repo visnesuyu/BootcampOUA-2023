@@ -9,6 +9,7 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
     private void Start()
     {
         PhotonNetwork.ConnectUsingSettings();
+
     }
     public override void OnConnectedToMaster()
     {
@@ -16,7 +17,12 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
     }
     public override void OnJoinedLobby()
     {
-        SceneManager.LoadScene("Lobby");
+        StartCoroutine(WaitandLoad());
+        IEnumerator WaitandLoad()
+        {
+            yield return new WaitForSeconds(12);
+            SceneManager.LoadScene("Lobby");
+        }
     }
 
 }
