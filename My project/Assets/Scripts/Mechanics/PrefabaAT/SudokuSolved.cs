@@ -12,10 +12,15 @@ public class SudokuSolved : MonoBehaviour
     [SerializeField] TextMeshProUGUI canvas;
     private int checker = 0;
     private bool isMagician, isArcher = false;
-    private void Start()
+    private void Awake()
     {
         spawnPoints[0] = GameObject.Find("tp1");
         spawnPoints[1] = GameObject.Find("tp2");
+    }
+    private void Start()
+    {
+        player = transform.gameObject;
+        canvas = GameObject.Find("FirstATM").GetComponent<TextMeshProUGUI>();
     }
 
     private void OnTriggerEnter(Collider other)
