@@ -103,8 +103,11 @@ Harita dizaynını tamamladık. Scriptlerimizi karşılaştırdık. Mekaniklerim
 
 # Sprint 3
 
-- Sprint notları = Bu sprintte multiplayer özelliği ekledik, oyun içindeki bulmacalrı ve görevleri tamamladık, karakter bugları üzerine çalışmalaar yaptık. Oyunumuzun son noktlarını tamamladık.
+- Sprint notları = Bu sprintte multiplayer özelliği ekledik, oyun içindeki bulmacaları ve görevleri tamamladık, karakter bugları üzerine çalışmalar yaptık. Oyunumuzun son noktalarını tamamladık.
 - Backlog Excell Tablosu
+
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/d11eb945-16da-4804-8afe-e956e3aaedf9)
+
 
 ![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/e5b3a7a6-2280-4aed-a17a-9d4c64616063)
 
