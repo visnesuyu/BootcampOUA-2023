@@ -122,7 +122,12 @@ Grup toplantıları whatsapp üzerinden planlanmış olup discord üzerinden ger
 
 - Ürün Durumu
 ![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/ebc2b364-4344-4bb4-8883-248e12c51bbc)
-Multiplayer Görseli
+
+- Terrain, Shader eklenerek Polishleme Yapıldı
+- 
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/2435f391-baf5-4f83-a4f9-3bcdd17b572f)
+
+-Multiplayer Görseli
 
 ![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/629f8ac2-3da8-46f6-bf30-0f8347c02091)
 
