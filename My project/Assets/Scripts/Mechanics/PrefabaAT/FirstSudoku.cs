@@ -17,14 +17,6 @@ public class FirstSudoku : MonoBehaviour
         canvas = GameObject.Find("FirstATM").GetComponent<TextMeshProUGUI>();
         animator = GameObject.Find("door1anim").GetComponent<Animation>();
         animator2 = GameObject.Find("door2anim").GetComponent<Animation>();
-        if(transform.gameObject == transform.gameObject.TryGetComponent(out Buyucu b))
-        {
-            Selectedanim = animator;
-        }
-        else
-        {
-            Selectedanim = animator2;
-        }
         Timer = 5;
     }
     private void OnTriggerEnter(Collider other)
@@ -45,7 +37,7 @@ public class FirstSudoku : MonoBehaviour
         }else if (other.gameObject.TryGetComponent(out GreenATM green))
         {
             canvas.text = "Green ATM interact (E)";
-            Selectedanim.Play();
+            animator.Play(); animator2.Play();
         }else if (other.gameObject.TryGetComponent(out OrangeATM orange))
         {
             canvas.text = "Orange ATM interact (E)";
