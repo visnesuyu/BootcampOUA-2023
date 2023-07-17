@@ -45,7 +45,7 @@ public class FirstSudoku : MonoBehaviour
         }else if (other.gameObject.TryGetComponent(out GreenATM green))
         {
             canvas.text = "Green ATM interact (E)";
-            if (Input.GetKeyDown(KeyCode.E)) Selectedanim.SetTrigger("open");
+            Selectedanim.SetTrigger("open");
         }else if (other.gameObject.TryGetComponent(out OrangeATM orange))
         {
             canvas.text = "Orange ATM interact (E)";
