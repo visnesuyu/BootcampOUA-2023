@@ -120,7 +120,6 @@ Grup toplantıları whatsapp üzerinden planlanmış olup discord üzerinden ger
 - Trello Üzerinden Görev Dağılımı
 - ![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/e4cdb151-6ea1-4e80-bbc4-1d1e0fbafafe)
 
-![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/b782b867-04c7-434b-97ff-2cb42956ac85)
 
 - Ürün Durumu
 ![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/ebc2b364-4344-4bb4-8883-248e12c51bbc)
