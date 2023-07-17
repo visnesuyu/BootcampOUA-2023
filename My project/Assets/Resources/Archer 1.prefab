@@ -4246,7 +4246,8 @@ MonoBehaviour:
   BottomClamp: -30
   CameraAngleOverride: 0
   LockCameraPosition: 0
-  arrowObject: {fileID: 0}
+  arrowObject: {fileID: 1054807568164292900, guid: 96cbb9d55b4a308488c0c585474e6633,
+    type: 3}
   arrowPoint: {fileID: 5480077529501600180}
 --- !u!114 &5480077529050503298
 MonoBehaviour:
