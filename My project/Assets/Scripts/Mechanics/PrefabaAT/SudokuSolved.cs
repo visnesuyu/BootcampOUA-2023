@@ -27,7 +27,7 @@ public class SudokuSolved : MonoBehaviour
     {
         if(other.gameObject.TryGetComponent(out Sudoku sudoku))
         {
-            canvas.text = "Press (E) to start solve puzzle";
+            canvas.text = "The final is for two people.";
         }
     }
     private void Update()

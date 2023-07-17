@@ -7,16 +7,16 @@ using UnityEngine.InputSystem;
 public class FirstSudoku : MonoBehaviour
 {
     private TextMeshProUGUI canvas;
-    private Animator animator;
-    private Animator animator2;
-    private Animator Selectedanim;
+    private Animation animator;
+    private Animation animator2;
+    private Animation Selectedanim;
     private int Timer;
 
     private void Start()
     {
         canvas = GameObject.Find("FirstATM").GetComponent<TextMeshProUGUI>();
-        animator = GameObject.Find("door1anim").GetComponent<Animator>();
-        animator2 = GameObject.Find("door2anim").GetComponent<Animator>();
+        animator = GameObject.Find("door1anim").GetComponent<Animation>();
+        animator2 = GameObject.Find("door2anim").GetComponent<Animation>();
         if(transform.gameObject == transform.gameObject.TryGetComponent(out Buyucu b))
         {
             Selectedanim = animator;
@@ -45,7 +45,7 @@ public class FirstSudoku : MonoBehaviour
         }else if (other.gameObject.TryGetComponent(out GreenATM green))
         {
             canvas.text = "Green ATM interact (E)";
-            Selectedanim.SetTrigger("open");
+            Selectedanim.Play();
         }else if (other.gameObject.TryGetComponent(out OrangeATM orange))
         {
             canvas.text = "Orange ATM interact (E)";

@@ -6,24 +6,22 @@ using UnityEngine.InputSystem;
 
 public class BridgeSolved : MonoBehaviour
 {
-    private GameObject BridgeTarget;
-    private Animator BridgeAnim;
+    private Animation anim;
     private TextMeshProUGUI textBridge;
 
     void Start()
     {
-        BridgeTarget = GameObject.Find("Target");
-        BridgeAnim = BridgeTarget.GetComponent<Animator>();
+        anim = GameObject.Find("Target").GetComponent<Animation>();
         textBridge = GameObject.Find("FirstATM").GetComponent<TextMeshProUGUI>();
-
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.TryGetComponent(out BridgeArea bridgearea))
         {
-            textBridge.text = "Press (E) to open bridge.";
-            BridgeAnim.SetTrigger("bridge");
+            textBridge.text = "Bridge Opened...";
+            //BridgeAnim.SetTrigger("bridge");
+            anim.Play();
         }
     }
 
