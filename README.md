@@ -108,7 +108,6 @@ Harita dizaynını tamamladık. Scriptlerimizi karşılaştırdık. Mekaniklerim
 
 ![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/e5b3a7a6-2280-4aed-a17a-9d4c64616063)
 
-
 - Sprint İçinde Tamamlanması Öngörülen Puan = 165
 - Sprint İçinde Tamamlanan Puan = 165
 - Daily Scrum:
@@ -120,7 +119,15 @@ Grup toplantıları whatsapp üzerinden planlanmış olup discord üzerinden ger
 
 - Ürün Durumu
 ![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/ebc2b364-4344-4bb4-8883-248e12c51bbc)
-![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/5d2f982e-2b66-451f-97dc-a567eb38d701)
+Multiplayer Görseli
+
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/629f8ac2-3da8-46f6-bf30-0f8347c02091)
+
+Oyun İçi Görseller
+
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/2a02248d-e879-4587-a8b3-2d44f3362284)
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/110824350/7018637d-bfb8-4302-b026-652f6961f5e5)
+
 ![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/2e88acad-e034-4e63-9cbc-6e5fae1cdb2b)
 
 
@@ -128,10 +135,13 @@ Grup toplantıları whatsapp üzerinden planlanmış olup discord üzerinden ger
 
 
 ### Sprint Review
-Level dizaynını tamamladık. Yapılanları birleştirdik. Multiplayer özelliğini ekledik. Genel hatları ile oyunumuzu tamamladık.
+-Level dizaynını tamamladık. 
+-Yapılanları birleştirdik.
+-Multiplayer özelliğini ekledik. 
+-Genel hatları ile oyunumuzu tamamladık.
 ### Sprint Restrospective
-* Multiplayer özelliğini eklerken sorun yaşadık.
-* Yaptıklarımızı birleştirirken sorun yaşadık.
+* Multiplayer özelliğini eklerken birçok sorunla karşılaştık, bu sorunları biraz test ederek ve deneyerek çözmeye çalıştık, beklenilenden daha uzun sürdü.
+* Yaptıklarımızı birleştirirken conflictlerle karşılaştık. Sık toplantılar ile bu sorunu aştık.
 * Teslimin son haftası olduğu için zaman sıkıntıları yaşadık.
 ### Sprint Accomplishments
 * Bütün yoğunluklara rağmen toplantılarımızı gerçekleştirdik.
