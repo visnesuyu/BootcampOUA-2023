@@ -101,6 +101,44 @@ Harita dizaynını tamamladık. Scriptlerimizi karşılaştırdık. Mekaniklerim
 ## Product Backlog Url
 [Unity Takım 50 - Çalışma Alanı](https://miro.com/welcomeonboard/M3Jzc2RyRE4yekZUdDNZS1lCemZUaDhiNWxVWXdQWjNVM1VEb0x6RmV3SFNUYUU5UUh5U3kxTkpteFVNOFFEZnwzMDc0NDU3MzUwMjg2NDE2OTg5fDI=?share_link_id=708645631014)
 
+# Sprint 3
+
+- Sprint notları = Bu sprintte multiplayer özelliği ekledik, oyun içindeki bulmacalrı ve görevleri tamamladık, karakter bugları üzerine çalışmalaar yaptık. Oyunumuzun son noktlarını tamamladık.
+- Backlog Excell Tablosu
+
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/e5b3a7a6-2280-4aed-a17a-9d4c64616063)
+
+
+- Sprint İçinde Tamamlanması Öngörülen Puan = 165
+- Sprint İçinde Tamamlanan Puan = 165
+- Daily Scrum:
+Grup toplantıları whatsapp üzerinden planlanmış olup discord üzerinden gerçekleştirilmiştir.
+
+
+- Trello Üzerinden Görev Dağılımı
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/b782b867-04c7-434b-97ff-2cb42956ac85)
+
+- Ürün Durumu
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/ebc2b364-4344-4bb4-8883-248e12c51bbc)
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/5d2f982e-2b66-451f-97dc-a567eb38d701)
+![image](https://github.com/visnesuyu/BootcampOUA-2023/assets/109107707/2e88acad-e034-4e63-9cbc-6e5fae1cdb2b)
+
+
+
+
+
+### Sprint Review
+Level dizaynını tamamladık. Yapılanları birleştirdik. Multiplayer özelliğini ekledik. Genel hatları ile oyunumuzu tamamladık.
+### Sprint Restrospective
+* Multiplayer özelliğini eklerken sorun yaşadık.
+* Yaptıklarımızı birleştirirken sorun yaşadık.
+* Teslimin son haftası olduğu için zaman sıkıntıları yaşadık.
+### Sprint Accomplishments
+* Bütün yoğunluklara rağmen toplantılarımızı gerçekleştirdik.
+* Birlikte çalışıp çakışma sorunlarını düzenledik.
+* Zaman sıkıntılarına rağmen müsait oldukça aktif olup yoğun şekilde çalıştık.
+## Product Backlog Url
+[Unity Takım 50 - Çalışma Alanı](https://miro.com/welcomeonboard/M3Jzc2RyRE4yekZUdDNZS1lCemZUaDhiNWxVWXdQWjNVM1VEb0x6RmV3SFNUYUU5UUh5U3kxTkpteFVNOFFEZnwzMDc0NDU3MzUwMjg2NDE2OTg5fDI=?share_link_id=708645631014)
 
 
 
