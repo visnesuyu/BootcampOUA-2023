@@ -3276,7 +3276,7 @@ MonoBehaviour:
   BottomClamp: -30
   CameraAngleOverride: 0
   LockCameraPosition: 0
-  fireballPrefab: {fileID: 2975172361827571180, guid: 15b782883e452fb458f226d37f469323,
+  fireballPrefab: {fileID: 3607495824506288943, guid: 15b782883e452fb458f226d37f469323,
     type: 3}
   instantiateLocation: {fileID: 5087968340952341471}
   environmentLayermask:
