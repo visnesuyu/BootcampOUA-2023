@@ -6,11 +6,9 @@ using TMPro;
 
 public class SudokuSolved : MonoBehaviour
 {
-    bool sudokuSolved = false;
-    [SerializeField] GameObject player;
-    [SerializeField] GameObject[] spawnPoints = new GameObject[2];
-    [SerializeField] TextMeshProUGUI canvas;
-    private int checker = 0;
+    GameObject player;
+    GameObject[] spawnPoints = new GameObject[2];
+    TextMeshProUGUI canvas;
     private bool isMagician, isArcher = false;
     private void Awake()
     {
@@ -28,42 +26,40 @@ public class SudokuSolved : MonoBehaviour
         if(other.gameObject.TryGetComponent(out Sudoku sudoku))
         {
             canvas.text = "The final is for two people.";
+            Teleport();        
         }
     }
     private void Update()
     {
-        SudokuChecker(sudokuSolved);
     }
-    void SudokuChecker(bool sudokusolved)
-    {
 
-        if (sudokusolved)
+    void WhichCharacter()
+    {
+        if(player = GameObject.Find("Archer 1"))
         {
-            int whichPlayer;
-            if (gameObject.TryGetComponent(out Buyucu b))
-            {
-                whichPlayer = 0;
-                checker++;
-                isMagician = true;
-            }
-            else if (gameObject.TryGetComponent(out Okcu o))
-            {
-                whichPlayer = 1;
-                checker++;
-                isArcher = true;
-            }
-            else
-            {
-                throw new Exception("invalid player");
-            }
-            if (isMagician && isArcher)
-            {
-                GameObject TP = spawnPoints[whichPlayer];
-                player.transform.position =
-                new Vector3(TP.transform.position.x,
-                TP.transform.position.y + 1,
-                TP.transform.position.z);
-            }
+            isArcher = true;
+        }
+        else
+        {
+            isMagician = true;
         }
     }
-}
+    void Teleport()
+    {
+        WhichCharacter();
+        if (isArcher)
+        {
+            player.transform.position = new Vector3(spawnPoints[0].transform.position.x,
+                spawnPoints[0].transform.position.y + 1,
+                spawnPoints[0].transform.position.z
+                );
+        }
+        else
+        {
+            player.transform.position = new Vector3(
+                spawnPoints[1].transform.position.x,
+                spawnPoints[1].transform.position.y + 1,
+                spawnPoints[1].transform.position.z);
+        }
+    }
+    }

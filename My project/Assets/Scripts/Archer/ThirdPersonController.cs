@@ -107,7 +107,11 @@ namespace StarterAssetsArcher
         private CharacterController _controller;
         private StarterAssetsInputs _input;
         private GameObject _mainCamera;
-        
+
+        #region sym
+        private GameObject cinemachineCam;
+        private GameObject cameraLook;
+        #endregion
 
         private const float _threshold = 0.01f;
 
@@ -144,6 +148,8 @@ namespace StarterAssetsArcher
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
+            cinemachineCam = GameObject.Find("MainCameraArcher");
+            cameraLook = GameObject.Find("CameraTetik");
 #if ENABLE_INPUT_SYSTEM 
             _playerInput = GetComponent<PlayerInput>();
 #else
@@ -425,5 +431,6 @@ namespace StarterAssetsArcher
                 AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
             }
         }
+
     }
 }
