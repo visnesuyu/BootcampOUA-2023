@@ -15,11 +15,11 @@ public class SpawnPlayers : MonoBehaviour
         Debug.Log(PhotonNetwork.CurrentRoom.PlayerCount);
         if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
         {
-            PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(53.60788f, 2.77f, 5), Quaternion.identity);
+            PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(48.2f, 1.39f, -4.8f), Quaternion.identity);
         }
        else if(PhotonNetwork.CurrentRoom.PlayerCount != 1)
         {
-            PhotonNetwork.Instantiate(playerPrefabArcher.name, new Vector3(53.60788f, 2.77f, -5), Quaternion.identity);
+            PhotonNetwork.Instantiate(playerPrefabArcher.name, new Vector3(48.2f, 1.39f, 6.56f), Quaternion.identity);
         }
     }
 
